@@ -25,6 +25,10 @@ img {
     max-width: 100%;
 }
 
+video {
+    max-width: 50px;
+}
+
 .header-inner {
     max-width: 1200px;
     height: 110px;
@@ -43,7 +47,8 @@ img {
 
 .header-logo {
     display: block;
-    width: 170px;
+    width: 100px;
+    float: left;
 }
 
 .site-menu ul {
