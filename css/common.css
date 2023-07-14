@@ -73,6 +73,10 @@ video {
     .site-menu li {
         margin-top: 20px;
     }
+    
+    .header-site-menu.is-show {
+        display: block;
+    }
 
     .header {
         position: fixed;
