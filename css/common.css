@@ -25,10 +25,6 @@ img {
     max-width: 100%;
 }
 
-video {
-    max-width: 50px;
-}
-
 .header-inner {
     background-color: #70F431;
     height: 110px;
@@ -39,6 +35,10 @@ video {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-logo img {
+    max-width: 70px;
 }
 
 .toggle-menu-button {
@@ -98,6 +98,10 @@ video {
 
     .header-logo {
         width: 100px;
+    }
+
+    .header-logo img {
+        max-width: 40px;
     }
 
     .header-site-menu {
