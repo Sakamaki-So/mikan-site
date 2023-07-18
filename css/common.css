@@ -144,7 +144,7 @@ img {
 
 .footer {
     color: #ffffff;
-    background-color: #24211b;
+    background-color: #ff9821;
     padding-top: 30px;
     padding-bottom: 15px;
     display: flex;
@@ -154,8 +154,8 @@ img {
 
 .footer-logo {
     display: block;
-    width: 235px;
-    margin-top: 90px;
+    width: 40px;
+    margin-top: 60px;
 }
 
 .copyright {
