@@ -26,6 +26,7 @@ img {
 }
 
 .header-inner {
+    color: #148b24;
     background-color: #70F431;
     height: 110px;
     margin-left: auto;
@@ -109,8 +110,8 @@ img {
         top: 100%;
         left: 0;
         right: 0;
-        color: #ffffff;
-        background-color: #736e62;
+        color: #148b24;
+        background-color: #9eff1f;
         padding-top: 30px;
         padding-bottom: 50px;
         display: none;
@@ -144,7 +145,7 @@ img {
 
 .footer {
     color: #ffffff;
-    background-color: #ff9821;
+    background-color: #fb9000;
     padding-top: 30px;
     padding-bottom: 15px;
     display: flex;
