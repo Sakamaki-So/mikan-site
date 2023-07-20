@@ -40,3 +40,8 @@
 .member-list li:first-child {
     margin-left: 0;
 }
+
+.member-list li img {
+    max-width: 100%;
+    max-height: 260px;
+}
