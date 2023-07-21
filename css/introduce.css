@@ -53,6 +53,10 @@
     object-fit: cover;
 }
 
+.kanpei {
+    object-position: 100% 100%;
+}
+
 @media (max-width: 800px) {
     .fruits-list ul {
         font-size: 22px;
