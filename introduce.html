@@ -7,6 +7,8 @@
         <meta name="viewport" content="width=device-width">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/display_menu.js"></script>
+        <script src="js/display_sorting_menu.js"></script>
+        <script src="js/sort_element.js"></script>
         <link href="css/common.css" rel="stylesheet">
         <link href="css/introduce.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,33 +41,40 @@
         <main class="main">
             <div class="fruits-list">
                 <h2>Uncommon Citrus List</h2>
-                <ul>
-                    <li >
+                <button class="sort-menu-button"></button>
+                <div class="sort-menu">
+                    <button class="suger-content-sort">糖度</button>
+                    <button class="scent-content-sort">香りの強さ</button>
+                    <button class="sour-content-sort">酸味</button>
+                    <button class="seed-filter">種なし</button>
+                </div>
+                <ul id="citrus-list">
+                    <li id="mikan">
                         <a href="fruits/mikan.html">
                             <img src="images/fruits/mikan_2.jpg">
                             みかん（ウンシュウミカン）
                         </a>
                     </li>
-                    <li>
+                    <li id="kanpei">
                         <a href="fruits/kanpei.html">
                             <img class="kanpei" src="https://upload.wikimedia.org/wikipedia/commons/9/9d/%EA%B7%A4%EA%B3%BC_%EB%A0%88%EB%93%9C%ED%96%A5.jpg">
                             甘平（カンペイ）
                         </a>
                     </li>
-                    <li>
+                    <li id="kiyomi">
                         <a href="fruits/kiyomi.html">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Kiyomi.JPG">
                             清美（キヨミ）
                         </a>
                     </li>
-                    <li>
+                    <li id="busshukan">
                         <a href="fruits/busshukan.html">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Buddhahand.jpg">
                             仏手柑（ブッシュカン）
                         </a>
                     </li>
-                    <li>
-                        <a href="fruits/beni_madonna.html">
+                    <li id="benimadonna">
+                        <a href="fruits/benimadonna.html">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%E7%B4%85%E3%81%BE%E3%81%A9%E3%82%93%E3%81%AA.png/330px-%E7%B4%85%E3%81%BE%E3%81%A9%E3%82%93%E3%81%AA.png">
                             紅まどんな（ベニマドンナ）
                         </a>
