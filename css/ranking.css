@@ -1,11 +1,9 @@
-.ranking {
+.rank1 {
     counter-reset: rank;
-    list-style-type: none;
 }
 
 .rank1 li::before {
     content: counter(rank) "位";
-    color: #bf0000;
-    font-weight: 700;
-    line-height: initial;
+    counter-increment: rank;
+    padding-right: 10px;
 }
