@@ -7,36 +7,124 @@
         <meta name="viewport" content="width=device-width">
         <script src="js/ranking.js"></script>
         
-        <link href="css/common.css">
-        <link href="css/ranking.css">
+        <link href="css/common.css" rel="stylesheet">
+        <link href="css/ranking.css" rel="stylesheet">
         <link rel="https://fonts.googleapis.com">
-        <link rel="icon" href="images/ranking/orange.jpg" sizes="32x32" >
-        <link rel="icon" href="images/ranking/orange.jpg" sizes="192x192" >
+        <link rel="icon" href="images/common/top_icon.gif" sizes="32x32" >
+        <link rel="icon" href="images/common/top_icon.gif" sizes="192x192" >
     </head>
     <body>
-        <!--header ここからindexのを写す-->
-        <header class="header"></header>
-        <!--ここまで-->
+        <!--header ここから-->
+        <header class="header">
+            <div class="header-inner">
+                <a class="header-logo" href="index.html">
+                    <img src="images/common/top_icon.gif" alt="ロゴ">
+                </a>
+                <button class="toggle-menu-button"></button>
+                <div class="header-site-menu">
+                    <nav class="site-menu">
+                        <ul>
+                            <li><a href="introduce.html">柑橘類の紹介</a></li>
+                            <li><a href="ranking.html">ランキング</a></li>
+                            <li><a href="members.html">編集メンバー</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--header ここまで-->
         <!--main ここから-->
         <main class="mein">
-            <div>
-                <ul class="rank1">
-                    <li>和歌山県</li>
-                    <li>愛媛県</li>
-                    <li>静岡県</li>
-                    <li>熊本県</li>
-                    <li>長崎県</li>
-                    <li>佐賀県</li>
-                    <li>愛知県</li>
-                    <li>広島県</li>
-                    <li>福岡県</li>
-                    <li>三重県</li>
+            
+            <div class="title">
+                <h1>みかんに関する各種ランキング
+                    <ul>
+                        <li><a href="#hav">収穫量</a></li>
+                        <li><a href="#sug">糖度</a></li>
+                        <li><a href="#pri">価格</a></li>
+                    </ul>
+                    
+                </h1>
+            </div>
+            
+            
+            <div class="harvest">
+                <h2 id="hav">みかんの収穫量＆産地
+                    <p>ー割合もあるよ</p>
+                </h2>
+                
+                <ul class="rank harvest">
+                    全国:74.9万t<br>
+                    順位　都道府県　収穫量　地域で有名な品種
+                    <li><span>和歌山県</span>　14.78万t　有田ミカン</li>
+                    <li><span>愛媛県</span>　12.78万t　マドンナ，甘平</li>
+                    <li><span>静岡県</span>　9.97万t　三ケ日みかん</li>
+                    <li><span>熊本県</span>　9万t　不知火</li>
+                    <li><span>長崎県</span>　5.2万t　せとか</li>
+                    <li><span>佐賀県</span>　4.69万t　太良みかん</li>
+                    <li><span>愛知県</span>　2.41万t　蒲群みかん</li>
+                    <li><span>広島県</span>　2.2万t　石地みかん</li>
+                    <li><span>福岡県</span>　2.09万t　清見</li>
+                    <li><span>三重県</span>　1.85万t　南紀みかん</li>
                 </ul>
+
+                <img class="havimage" src="images/ranking/share.png" alt="みかんのシェア">
+            </div>
+
+            
+
+            <div class="sugar">
+                <h2 id="sug">みかんの糖度</h2>
+
+                <ul class="rank sugar">
+                    <li>あすき</li>
+                    <li>あすみ</li>
+                    <li>姫小春</li>
+                    <li>べにばえ</li>
+                    <li>大将季</li>
+                    <li>カラマンダリン</li>
+                    <li>紅マドンナ</li>
+                    <li>はやか</li>
+                    <li>はるか</li>
+                    <li>ポンカン</li>
+                </ul>
+            </div>
+
+            <div class="price">
+                <h2 id="pri">都市別みかんの価格</h2>
+
+                <ul class="rank rowprice">
+                    <h3>安い都市ランキング</h3>
+                    <li>長崎市</li>
+                    <li>高松市</li>
+                    <li>和歌山市</li>
+                </ul>
+
+                <ul class="rank highprice">
+                    <h3>高い都市ランキング</h3>
+                    <li>宇都宮市</li>
+                    <li>札幌市</li>
+                    <li>富山市</li>
+                </ul>
+
+                
             </div>
             
         </main>
         <!--main ここまで-->
         <!--footer ここから-->
-        <footer></footer>
+        <footer class="footer">
+            <nav class="site-menu">
+                <ul>
+                    <li><a href="introduce.html">柑橘類の紹介</a></li>
+                    <li><a href="ranking.html">ランキング</a></li>
+                    <li><a href="access.html">編集メンバー</a></li>
+                </ul>
+            </nav>
+            <a class="footer-logo" href="index.html">
+                <img src="images/common/logo_footer.png" alt="ロゴ">
+            </a>
+        </footer>
+        <!--footer ここまで-->
     </body>
 </html>
