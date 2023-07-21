@@ -22,15 +22,11 @@
 .explanation h2, .explanation-text {
     position: relative;
     text-align: left;
+    line-height: 1.5em;
 }
 
 .explanation .explanation-text h3 {
     margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-.explanation .explanation-text ul li {
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 
