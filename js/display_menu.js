@@ -1,9 +1,9 @@
 let clickable = true;
-jQuery(function() {
+jQuery(()=> {
     $(window).resize(()=> {
         if(window.matchMedia("(max-width: 800px)").matches) {
             $(".header-site-menu").hide();
-            $(".toggle-menu-button").on("click", function() {
+            $(".toggle-menu-button").on("click", ()=> {
                 if(clickable) {
                     clickable = false;
                     setTimeout(() => clickable = true, 300);
