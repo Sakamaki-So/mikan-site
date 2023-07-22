@@ -130,4 +130,14 @@
         height: 70px;
         margin-right: 20px;
     }
+
+    .sort-menu-button {
+        position: relative;
+        left: calc(50% + 115px);
+    }
+
+    .sort-menu {
+        position: relative;
+        left: calc(50% + 75px);
+    }
 }
