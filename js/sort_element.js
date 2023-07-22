@@ -16,7 +16,6 @@ function sortElement(sortList) {
     let liArr = Array.prototype.slice.call(ulList.getElementsByTagName("li"));
     let resultList = [];
     sortList.forEach(element => resultList.push(liArr.find(e => e.id === element)));
-    console.log(resultList);
     resultList.forEach(element => ulList.appendChild(ulList.removeChild(element)));
 }
 
@@ -32,7 +31,7 @@ function sort(mode, className) {
             .querySelectorAll("button").forEach(
                 element => element.style.backgroundColor = "#f5f5f5");
     if(sortMode !== 0) {
-        document.getElementsByClassName(className)[0].style.backgroundColor = "#d5d5d5";
+        document.getElementsByClassName(className)[0].style.backgroundColor = "#dddddd";
     }
     switch (sortMode) {
         case 0:
