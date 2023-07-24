@@ -129,6 +129,10 @@ h3>img {
  .block {
     padding-bottom: 40px;
  }
+
+ .readmore-check {
+    display: none;
+}
  
  .pagetop {
     height: 50px;
