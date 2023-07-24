@@ -37,20 +37,24 @@
         <!--header ここまで-->
         <!--main ここから-->
         <main class="mein">
-            
             <div class="title">
-                <h1>みかんに関する各種ランキング
-                    <ul>
-                        <li><a href="#hav">収穫量</a></li>
-                        <li><a href="#sug">糖度</a></li>
-                        <li><a href="#pri">価格</a></li>
-                    </ul>
-                    
-                </h1>
+                <h1>Various rankings of Oranges</h1>
+            </div>
+
+            <div class="block">
+                <h2>はじめに</h2>
+                <p>主にみかんに関係する様々な事柄をランキング形式で紹介してみました！</p>
+                <ul class="jump">
+                    <li><a href="#hav">収穫量</a></li>
+                    <li><a href="#sug">糖度</a></li>
+                    <li><a href="#pri">価格</a></li>
+                    ←クリックするとその場所まで移動します
+                </ul>
+                <p class="small">このページ内のこのサイトで紹介されてるみかんの名前にカーソルを合わせてみると...</p>
+
             </div>
             
-            
-            <div class="harvest">
+            <div class="block harvest">
                 <h2 id="hav">みかんの収穫量＆産地
                     <p>ー割合もあるよ</p>
                 </h2>
@@ -59,15 +63,15 @@
                     全国:74.9万t<br>
                     順位　都道府県　収穫量　地域で有名な品種
                     <li><span>和歌山県</span>　14.78万t　有田ミカン</li>
-                    <li><span>愛媛県</span>　12.78万t　まどんな，甘平</li>
-                    <li><span>静岡県</span>　9.97万t　三ケ日みかん</li>
-                    <li><span>熊本県</span>　9万t　不知火</li>
-                    <li><span>長崎県</span>　5.2万t　せとか</li>
-                    <li><span>佐賀県</span>　4.69万t　太良みかん</li>
-                    <li><span>愛知県</span>　2.41万t　蒲群みかん</li>
-                    <li><span>広島県</span>　2.2万t　石地みかん</li>
-                    <li><span>福岡県</span>　2.09万t　清見</li>
-                    <li><span>三重県</span>　1.85万t　南紀みかん</li>
+                    <li><span>愛媛県</span>　　12.78万t　まどんな，<a class="link" href="fruits/kanpei.html">甘平</a></li>
+                    <li><span>静岡県</span>　　9.97万t　 三ケ日みかん</li>
+                    <li><span>熊本県</span>　　9万t　　　不知火</li>
+                    <li><span>長崎県</span>　　5.2万t　　せとか</li>
+                    <li><span>佐賀県</span>　　4.69万t　 太良みかん</li>
+                    <li><span>愛知県</span>　　2.41万t　 蒲群みかん</li>
+                    <li><span>広島県</span>　　2.2万t　　石地みかん</li>
+                    <li><span>福岡県</span>　　2.09万t　 <a class="link" href="fruits/kiyomi.html">清見</a></li>
+                    <li><span>三重県</span>　1.85万t　 南紀みかん</li>
                 </ul>
 
                 <img class="havimage" src="images/ranking/share.png" alt="みかんのシェア">
@@ -75,45 +79,78 @@
 
             
 
-            <div class="sugar">
+            <div class="block sugar">
                 <h2 id="sug">みかんの糖度</h2>
 
                 <ul class="rank sugar">
-                    <li><span>あすき</span></li>
-                    <li><span>あすみ</span></li>
-                    <li><span>姫小春</span></li>
-                    <li><span>べにばえ</span></li>
-                    <li><span>大将季</span></li>
-                    <li><span>カラマンダリン</span></li>
-                    <li><span>紅まどんな</span></li>
-                    <li><span>はやか</span></li>
-                    <li><span>はるか</span></li>
-                    <li><span>ポンカン</span></li>
+                    <li><span>あすき</span>　　　　　16度</li>
+                    <li><span>あすみ</span>　　　　　15.7度</li>
+                    <li><span>姫小春</span>　　　　　15度</li>
+                    <li><span>べにばえ</span>　　　　15度</li>
+                    <li><span>大将季</span>　　　　　15度</li>
+                    <li><span>カラマンダリン</span>　14.5度</li>
+                    <li><span><a class="link" href="fruits/benimadonna.html">紅まどんな</a></span>　　　14.4度</li>
+                    <li><span>はやか</span>　　　　　14度</li>
+                    <li><span>はるか</span>　　　　　14度</li>
+                    <li><span>ポンカン</span> 　　　14度</li>
                 </ul>
+                <div class="sugar-explain">
+                    <input id="check1" class="readmore-check" type="checkbox">
+                    <div class="readmore-text">
+                        糖度は果汁100gの中に含まれている糖分の量をパーセントであらわしたものです.
+                        10月ごろに出荷される早生品種は10度程度，12月末ごろに出荷される晩生品種は12度程度であり，寒くなるにつれ糖度は高くなっていきます．
+                        <br>しかし，ただ糖度が高ければいいというわけでもなく酸味も適度にあってこそおいしいみかんだといえます．
+                        酸味は糖度とは逆に暖かくなるにつれ高くなるものなので，糖度と酸味のバランスを見極めることがみかん農家の方の腕の見せ所というわけですね．
+                        <br>ちなみに，一般的に甘くておいしいと感じられるものは糖度11度以上のものらしいです．
+                    </div>
+                    <label class="readmore-label" for="check1"></label>
+                </div>
+
             </div>
 
-            <div class="price">
-                <h2 id="pri">都市別みかんの価格</h2>
+            <div class="block price">
+                <h2 id="pri">都市別みかんの小売価格</h2>
 
                 <ul class="rank rowprice">
                     <h3>
                         <img src="images/ranking/orange.jpg" alt="みかん">
                         安い都市ランキング
                     </h3>
-                    <li><span>長崎市</span></li>
-                    <li><span>高松市</span></li>
-                    <li><span>和歌山市</span></li>
+                    <li><span>長崎市</span>　　434.9円/kg</li>
+                    <li><span>高松市</span>　　464.6円/kg</li>
+                    <li><span>和歌山市</span>　468.7円/kg</li>
                 </ul>
 
                 <ul class="rank highprice">
-                    <h3>高い都市ランキング</h3>
-                    <li><span>宇都宮市</span></li>
-                    <li><span>札幌市</span></li>
-                    <li><span>富山市</span></li>
+                    <h3>
+                        <img src="images/ranking/orange.jpg" alt="みかん">
+                        高い都市ランキング
+                    </h3>
+                    <li><span>宇都宮市</span>　950.9円/kg</li>
+                    <li><span>札幌市</span>　　856.3円/kg</li>
+                    <li><span>富山市</span>　　813.1円/kg</li>
                 </ul>
 
-                
+                <div class="price-explain">
+                    <input id="check2" class="readmore-check" type="checkbox">
+                    <div class="readmore-text">
+                        値段が安い都市はみかんの生産量が多い地域とその周辺，
+                        高い都市は主に寒い地域で，周辺にみかん生産量が多い都市がない地域
+                        と分かりやすく特徴があります．
+                        <br>安い都市の中でも，みかんの生産量の多い都市よりもその周辺にある都市のほうが小売価格が安くなっています．
+                        <br>都市ごとの価格に最大でが500円もの差があることには驚きですね．
+                    </div>
+                    <label class="readmore-label" for="check2"></label>
+                </div>
             </div>
+
+            <div class="block">
+                <h2>おわり</h2>
+                <p>カーソルを合わせて変化するところをクリックするとそれの紹介ページに移動します！</p>
+                <p>ためしてみてね！</p>
+            </div>
+
+            <button id="js-pagetop" class="pagetop"><span class="pagetop__arrow"></span></button>
             
         </main>
         <!--main ここまで-->
