@@ -156,6 +156,9 @@ h3>img {
   }
 
   @media (max-width: 800px) {
+    .title {
+        padding-top: 105px;
+    }
     .havimage {
         width: auto;
         height: auto;
